@@ -1,22 +1,53 @@
-# DIO - Trilha .NET - Programação orientada a objetos
-www.dio.me
+<h1>📱 DIO - Trilha .NET | POO</h1>
+<p><strong>Desafio:</strong> Modelagem de um sistema de celulares com Programação Orientada a Objetos.<br>
+<strong>Plataforma:</strong> <a href="https://www.dio.me" target="_blank">Digital Innovation One</a></p>
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de orientação a objetos, da trilha .NET da DIO.
+<hr>
 
-## Contexto
-Você é responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que você faça uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
+<h2>📌 Objetivo</h2>
+<p>Criar um <strong>Console App .NET</strong> aplicando conceitos de <strong>POO</strong>, com uma <strong>classe abstrata</strong> <code>Smartphone</code> e duas classes filhas (<code>Nokia</code> e <code>Iphone</code>), cada uma com seu próprio comportamento no método <code>InstalarAplicativo</code>.</p>
 
-## Proposta
-Você precisa criar um sistema em .NET, do tipo console, mapeando uma classe abstrata e classes específicas para dois tipos de celulares: Nokia e iPhone. 
-Você deve criar as suas classes de acordo com o diagrama abaixo:
+<hr>
 
-![Diagrama classes](Imagens/diagrama.png)
+<h2>📏 Regras</h2>
+<ul>
+  <li><code>Smartphone</code> deve ser <strong>abstrata</strong>.</li>
+  <li><code>Nokia</code> e <code>Iphone</code> herdam de <code>Smartphone</code>.</li>
+  <li>O método <code>InstalarAplicativo</code> deve ser sobrescrito (<code>override</code>).</li>
+</ul>
 
-## Regras e validações
-1. A classe **Smartphone** deve ser abstrata, não permitindo instanciar e servindo apenas como modelo.
-2. A classe **Nokia** e **Iphone** devem ser classes filhas de Smartphone.
-3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
+<hr>
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+<h2>🚀 Como Rodar</h2>
+<pre>
+git clone https://github.com/seuusuario/seurepositorio.git
+dotnet run
+</pre>
+
+<hr>
+
+<h2>🛠 Tecnologias</h2>
+<ul>
+  <li>C#</li>
+  <li>.NET 6+</li>
+  <li>POO</li>
+</ul>
+
+
+
+## 💜 Projeto feito por Zallih
+
+<img align="right" alt="zallih" width="150" src="https://github.com/zallih/Images/blob/main/zally.png?raw=true">
+  <a href="https://www.instagram.com/zzappiello.o/"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+    <a href="mailto:lailazappiello90@gmail.com"><img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" /></a>
+    <a href="https://wa.me/5511981642627"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+    <a href="https://www.linkedin.com/in/laila-zappiello/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+
+<br><br><br><br>
+<br><br><br><br>
+<p align="center">
+  🌌 <strong>"May the Force be with you."</strong> – Star Wars
+</p>
+<p align="center">
+<img src="https://github.com/zallih/Images/blob/main/Jedi%20grogu%F0%9F%92%9A.jpeg?raw=true" width="250px" />
+</p>
